@@ -1,0 +1,138 @@
+body{
+    font-family: Roboto, Arial;
+    
+}
+.content-container{
+    display: grid;
+    grid-template-columns: 358.6px 861.4px;
+    justify-content: center;
+    column-gap: 40px;
+}
+.slider-container{
+    position: relative;
+    width: 300px;
+    margin-top:60px;
+}
+.slider{
+    appearance: none;
+    height: 5px;
+    width: 275px;
+    background: #3e3e3e;
+    outline: none;
+    opacity: 0.7px;
+    border-radius: 2.5px;
+}
+.srch-bar{
+    height: 43.8px;
+    width: 189.8px;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.srch-btn{
+    height: 47.8px;
+    width: 58px;
+    background-color: rgb(194, 194, 194);
+    border-radius: 4px;
+    cursor: pointer;
+}
+.srch-icon{
+    height: 24px;
+    width: 24px;
+}
+.search-container{
+    display: flex;
+    column-gap: 10px;
+    margin-top: 100px;
+}
+.shop-things{
+    display:flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.pages{
+    margin-bottom: 25px;
+}
+.page-title-text{
+    font-size: 75px;
+    color: rgb(23, 95, 212);
+}
+.page-title{
+    margin-bottom: 100px;
+}
+.products-container{
+    display: grid;
+    grid-template-columns: 253.533px 253.533px 253.533px;
+    column-gap: 20px;
+    row-gap: 10px;
+    margin-bottom: 100px;
+}
+.product-image{
+    height: 253.533px;
+}
+.product-details{
+    height: 87.55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.product-type{
+    height: 18.7833px;
+}
+.product-name{
+    height: 22.1px;
+}
+.product-price{
+    height: 19.8833px;
+}
+.product{
+    cursor: pointer;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+.product-type-text{
+    color: rgb(88,88,88);
+}
+.product-name-text{
+    font-size: 20px;
+    font-weight: bold;
+}
+.product-price-text{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: green;
+}
+.product-type-text,
+.product-name-text,
+.product-price-text{
+    margin-left: 5px;
+}
+.srch-filter{
+    margin-right: 40px;
+    border-right: 1px solid rgb(194, 194, 194);
+}
+.results{
+    margin-bottom: 40px;
+}
+.filter-text-text{
+    font-size: 25px;
+}
+.filter-text{
+    margin-bottom: 15px;
+}
+.price-range{
+    height: 25px;
+    width: 85px;
+    border: solid 2px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    border-radius: 12.5px;
+}
+.home-page{
+    cursor: pointer;
+}
+.slider::-webkit-slider-thumb{
+    cursor: pointer;
+}
